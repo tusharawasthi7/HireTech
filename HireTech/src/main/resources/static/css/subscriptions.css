@@ -1,0 +1,513 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f9fc;
+}
+
+.header {
+	background-color: #2c3e50;
+	color: white;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	height: 60px;
+}
+
+.header .logo {
+	height: 45px;
+}
+
+.header .back-button {
+	background-color: #ff6347;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 10px 15px;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+.page-title {
+	text-align: center;
+	margin-top: 100px; /* Adjusted to place below the navbar */
+}
+
+.page-title h1 {
+	text-align: center;
+	font-size: 24px;
+	color: red;
+}
+
+.plans {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px; /* Add space below the title */
+	flex-direction: column; /* Stack the plans vertically */
+	width: 500px; /* Adjust width of the plans container */
+}
+
+/* Additional CSS for the form modal */
+.modal {
+	display: none; /* Initially hidden */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 90%;
+	max-width: 500px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	margin: 50px auto;
+	animation: fadeIn 0.5s;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Flexbox Layout */
+.container {
+	display: flex;
+	justify-content: center; /* Center the container */
+	flex-direction: column; /* Align items in a column */
+	align-items: center; /* Center items horizontally */
+}
+
+.main-content {
+	width: 100%;
+	max-width: 800px; /* Center the content and limit its width */
+	padding: 20px;
+	margin-top: 30px;
+	/* Add space to avoid overlapping with the fixed header */
+}
+
+.subscription {
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-top: 5px;
+	background-color: #ffcc80; /* Add color to the container */
+	width: 100%; /* Ensure the container takes the full width */
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+button {
+	background-color: green;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 30%;
+	text-align: center;
+}
+
+button:hover {
+	background-color: darkgreen; /* Add darker green color on hover */
+}
+
+/* Form Styles */
+.form-container {
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 800px; . form-group { width : 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f9fc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	width: 450px;
+	color: black;
+	overflow-y: auto;
+	max-height: 90vh;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	color: #333;
+	text-align: center;
+}
+
+.input-box {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input, select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+	text-align: left;
+}
+
+.btn {
+	width: 100%;
+	padding: 10px;
+	background: #2c3e50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.btn:hover {
+	background: #ff6347;
+}
+
+.error-message {
+	display: block;
+	margin-top: 5px;
+	color: red;
+}
+
+.register-link {
+	margin-top: 20px;
+}
+
+.register-link a {
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+.register-link a:hover {
+	text-decoration: underline;
+}
+[
+_
+{{{CITATION{{{_1{
+]
+(
+https
+:
+//
+github
+.com
+/
+jamesbright
+/
+sidehustle
+/
+tree
+/
+0a74f497e98cda51efca7692779645424986b7c7
+/
+week2
+%
+2Findex
+.php
+)
+[
+_
+{{{CITATION{{{_2{
+]
+(
+https
+:
+//
+github
+.com
+/
+AlveeGit
+/
+Quiz-Game
+/
+tree
+/
+70b364028c2c2999884e0fef9c60b69de13dc58c
+/
+signup
+.php
+)
+[
+_
+{{{CITATION{{{_3{
+]
+(
+https
+:
+//
+github
+.com
+/
+Mehul2205
+/
+Recruitment-Portal
+/
+tree
+/
+9ed32108fa8d66cefe6acad7baba9d36259d3d0f
+/
+rec_index
+.php
+)
+[
+_
+{{{CITATION{{{_4{
+]
+(
+https
+:
+//
+github
+.com
+/
+sarvesh12k26
+/
+Well-Wishers
+/
+tree
+/
+dac053eef3c7a93d5618b3f7cc70aa621d213028
+/
+loc_fr
+%
+2Fresources
+%
+2Fviews
+%
+2Fauth
+%
+2Fregister
+.blade
+.php
+)
+[
+_
+{{{CITATION{{{_5{
+]
+(
+https
+:
+//
+github
+.com
+/
+Dickorir
+/
+pathology
+/
+tree
+/
+a4d70ab1adba3dc1ed060fb191e00c049f9c393a
+/
+resources
+%
+2Fviews
+%
+2Fpathology
+%
+2Fcreate
+.blade
+.php
+)
+[
+_
+{{{CITATION{{{_6{
+]
+(
+https
+:
+//
+github
+.com
+/
+TransOnlineWeb
+/
+MegoPay
+/
+tree
+/
+9aa75bbbbc7c4357dda5c96e5b369416cbe95a7d
+/
+resources
+%
+2Fviews
+%
+2Fstaff
+%
+2Fcreate
+.blade
+.php
+)
+[
+_
+{{{CITATION{{{_7{
+]
+(
+https
+:
+//
+github
+.com
+/
+kushdeepwalia
+/
+Expense_Manager
+/
+tree
+/
+e5dfb0ffb37d656db6f949aac36082d397f89f56
+/
+account
+.php
+)
+[
+_
+{{{CITATION{{{_8{
+]
+(
+https
+:
+//
+github
+.com
+/
+ISHAN-2001
+/
+IIIT-Guest-House
+/
+tree
+/
+c6d1813e16de4ba7d54188d159d54b12d8d17dca
+/
+form
+.php
+)
+[
+_
+{{{CITATION{{{_9{
+]
+(
+https
+:
+//
+github
+.com
+/
+mankiratkaur19
+/
+expenseManager
+/
+tree
+/
+405725f12315ba4df49594045cb9890baab74a6d
+/
+dashboard
+%
+2Fincome
+.php
+)
+[
+_
+{{{CITATION{{{_10{
+]
+(
+https
+:
+//
+github
+.com
+/
+lashka12
+/
+Travelo-Website
+/
+tree
+/
+48034500ebd76ca2eabdcd20eae49a1d1a47fded
+/
+Travelo
+%
+2FSystem
+%
+2Findex
+.php
+)
+[
+_
+{{{CITATION{{{_11{
+]
+(
+https
+:
+//
+github
+.com
+/
+shakeabi
+/
+biblio
+/
+tree
+/
+539c4df242891415e356fd22385a7a22542f8f6f
+/
+includes
+%
+2Fheader
+.php
+)

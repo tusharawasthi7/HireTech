@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(to right, #1e3c72, #2a5298);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-image:
+		url('https://www.employmenthelp.org/wp-content/uploads/Job-Board-Header-Background.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.logo img {
+	width: 160px;
+	height: 80px;
+}
+
+.container {
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 350px;
+	margin-top: 20px; /* Adjust if necessary */
+}
+
+.container h1 {
+	margin-bottom: 30px;
+	margin-top: 10px;
+	color: #1e3c72;
+}
+
+.container p {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: black;
+}
+
+.container label {
+	display: block;
+	margin: 10px 0 5px;
+	text-align: left;
+	font-weight: bold;
+	color: #333;
+}
+
+.container input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px; /* Add margin to create gap */
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.container input[type="submit"]:hover {
+	background: darkgreen;
+}
+
+.container a {
+	color: #1e3c72;
+	text-decoration: none;
+}
+
+.container a:hover {
+	text-decoration: underline;
+}
+
+.warning {
+	color: #ff0000;
+	background-color: #fff3cd;
+	border: 1px solid #ffeeba;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+}

@@ -1,0 +1,42 @@
+.stats-container { 
+  background-color: #ADD8E6; /* Added background color */
+  width: 80%; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  padding: 10px; 
+  text-align: center;
+  margin-top: 40px; 
+  margin-left: 50px; /* Move container to the right */
+  margin-right: 40px; 
+  font-size: 14px; /* Smaller font size */
+} 
+        
+.stat-box {
+  text-align: center;
+  margin-bottom: 20px; 
+} 
+     
+.stat-box h4 { 
+  margin-bottom: 20px; /* Increase space below the heading */ 
+  font-size: 16px; /* Smaller font size for the h1 element */
+  font-weight:normal; 
+} 
+     
+.view-jobs-button { 
+  background-color:#0056b3; 
+  color: white; 
+  padding: 10px 15px;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  margin-top: 20px; /* Add space above the button */ 
+} 
+
+.view-jobs-button:hover { 
+  background-color:#216f8c;
+}
+
+.header .title {
+  margin-left: 120px; /* Add margin to move text to the right */
+}

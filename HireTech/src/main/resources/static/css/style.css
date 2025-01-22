@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(to right, #1e3c72, #2a5298);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-image:
+		url('https://www.employmenthelp.org/wp-content/uploads/Job-Board-Header-Background.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.logo img {
+	width: 160px;
+	height: 80px;
+}
+
+.login-container {
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 350px;
+}
+
+h1 {
+	margin-bottom: 10px;
+	color: #1e3c72;
+}
+
+p {
+	margin-bottom: 20px;
+	color: #666;
+}
+
+label {
+	display: block;
+	margin: 10px 0 5px;
+	text-align: left;
+	color: #333;
+}
+
+input, select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background: #1e3c72;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background: #2a5298;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.links a {
+	color: #1e3c72; /* Same color for both links */
+	text-decoration: none;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.warning {
+	color: #ff0000;
+	background-color: #fff3cd;
+	border: 1px solid #ffeeba;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Plain-light-blue-background-1920x1080.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.exception-page {
+    text-align: center;
+}
+
+.exception-page img.logo {
+    max-width: 200px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.exception-page h1 {
+    font-size: 3rem;
+    color: #343a40;
+}
+
+.exception-page p {
+    font-size: 1.25rem;
+    color: red;
+}
+
+.exception-page .btn {
+    color: white; 
+    background-color: green; 
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.exception-page .btn:hover {
+    background-color: darkgreen; 
+}

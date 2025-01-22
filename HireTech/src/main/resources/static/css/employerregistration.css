@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(to right, #1e3c72, #2a5298);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-image:
+		url('https://www.employmenthelp.org/wp-content/uploads/Job-Board-Header-Background.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: left; /* Align text to the left */
+	width: 450px; /* Adjusted for better width */
+	height: 500px;
+	position: relative;
+	color: black; /* To ensure text within container is readable */
+	overflow-y: auto; /* Make the container scrollable */
+	max-height: 90vh;
+	/* Adjust the maximum height to fit within the viewport */
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	margin-top: 0; /* Remove top margin */
+	color: #333;
+	text-align: center;
+}
+
+.wrapper {
+	margin-top: 20px; /* Adjusted to reduce space for logo */
+}
+
+.logo {
+	position: absolute;
+	top: -60px; /* Adjust this based on your logo size */
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.logo img {
+	width: 120px;
+}
+
+.input-box {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input, select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+	text-align: left; /* Align labels to the left */
+}
+
+.btn {
+	width: 100%;
+	padding: 10px;
+	background: #1e3c72;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.btn:hover {
+	background: #2a5298;
+}
+
+.error-message {
+	display: block;
+	margin-top: 5px;
+	color: red;
+}
+
+.register-link {
+	margin-top: 20px;
+}
+
+.register-link a {
+	color: #1e3c72;
+	text-decoration: none;
+}
+
+.register-link a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 20px;
+	color: #666;
+	text-align: center;
+}
+
+.warning {
+	color: #ff0000;
+	background-color: #fff3cd;
+	border: 1px solid #ffeeba;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
